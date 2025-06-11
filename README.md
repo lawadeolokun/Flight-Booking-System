@@ -27,11 +27,12 @@ This is a Java GUI application for booking flights. Users can enter flight class
 
 ### 🔧 Steps:
 
-1. **Clone or Download** this repository: https://github.com/lawadeolokun/Flight-Booking-System.git
+1. **Clone or Download** this repository: git clone https://github.com/lawadeolokun/Flight-Booking-System.git
 2. Open the project in your Java IDE
-3. Compile all classes under `src/`
+3. Compile all classes under `src/` : javac -d out gui/FlightBooking.java exceptions/*.java flights/*.java logging/*.java
 4. Run the GUI:
-
    ```bash
-   javac -d out src/**/*.java
-   java -cp out gui.FlightBooking
+   cd out
+   java gui.FlightBooking
+   
+OR simply right-click FlightBooking.java and choose Run in your IDE
